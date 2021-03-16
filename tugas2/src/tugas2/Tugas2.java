@@ -7,7 +7,7 @@ package tugas2;
 
 /**
  *
- * @author User
+ * @author Desy Niken Dhiyanti Putri
  */
 public class Tugas2 {
 
