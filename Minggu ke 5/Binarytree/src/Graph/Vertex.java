@@ -7,14 +7,15 @@ package Graph;
 
 /**
  *
- * @author Desy Niken Dhiyanti Putri
+ * @author User
  */
-class Vertex {
- public char label;
+public class Vertex {
+  
+    public char label;
     public boolean wasVisited;
-    
+
     public Vertex(char label) {
-        this.label = label; wasVisited = false;
+        this.label = label; 
+        wasVisited = false;
     }
-    
 }

@@ -7,55 +7,49 @@ package Graph;
 
 /**
  *
- * @author Desy Niken Dhiyanti Putri
+ * @author User
  */
-class Queue {
-private int maxSize;
-    private long[] queArray;
+public class Queue {
+
+    private final int maxSize;
+    private final long[] queArray;
     private int front;
     private int rear;
     private int nItems;
-
-    public Queue(int size) {
+    
+    public Queue(int size){
         this.maxSize = size;
         queArray = new long[maxSize];
         front = 0;
         rear = -1;
         nItems = 0;
-
     }
-
-    public void insert(long value) {
-        if (rear == maxSize - 1) {
+    public void insert(long value){
+        if (rear == maxSize - 1){
             rear = -1;
         }
         queArray[++rear] = value;
         nItems++;
     }
-
-    public long remove() {
+    public long remove(){
         long temp = queArray[front++];
-        if (front == maxSize) {
+        if (front == maxSize){
             front = 0;
         }
         nItems--;
         return temp;
     }
-
-    public long peekFront() {
+    public long peekFront(){
         return queArray[front];
     }
-
-    public boolean isEmpty() {
+    public boolean isEmpty(){
         return (nItems == 0);
-
     }
-
-    public boolean isFull() {
+    public boolean isFull(){
         return (nItems == maxSize);
     }
-
-    public int size() {
+    public int size(){
         return nItems;
     }
+    
 }
