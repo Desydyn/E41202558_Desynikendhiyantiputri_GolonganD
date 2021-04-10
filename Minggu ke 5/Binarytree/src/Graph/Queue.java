@@ -7,7 +7,7 @@ package Graph;
 
 /**
  *
- * @author User
+ * @author Desy Niken Dhiyanti Putri
  */
 public class Queue {
 

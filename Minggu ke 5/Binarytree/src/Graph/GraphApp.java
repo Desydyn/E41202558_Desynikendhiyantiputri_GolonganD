@@ -7,13 +7,14 @@ package Graph;
 
 /**
  *
- * @author User
+ * @author Desy Niken Dhiyanti Putri
  */
 public class GraphApp {
 
     
      public static void main(String[] args) {
         Graph theGraph = new Graph();
+        
         theGraph.addVertex('A'); //0
         theGraph.addVertex('B'); //1
         theGraph.addVertex('C'); //2

@@ -9,7 +9,7 @@ import java.util.Stack;
 
 /**
  *
- * @author User
+ * @author Desy Niken Dhiyanti Putri
  */
 public class Dfsgraph {
 
